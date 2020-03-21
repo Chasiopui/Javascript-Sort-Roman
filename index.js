@@ -17,9 +17,6 @@ function romanToNum(roman) {
 
 function getSortedList(inputs) {
   return inputs
-    // .map(n => [n, romanToNum(n.split(' ').pop())])
-    // .sort((a, b) => a[1] - b[1])
-    // .map(n => n[0]);
     .map(n => {
       const splitted = n.split(' ');
       const roman = splitted.pop();
